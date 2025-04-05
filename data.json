@@ -1,0 +1,75 @@
+{
+  "season": "2025",
+  "teams": [
+    {
+      "name": "Team 1",
+      "owner": "Owner 1",
+      "history": [
+        {
+          "week": 1,
+          "drinks": 1,
+          "drinksCompleted": 0,
+          "players": [
+            "Kyle Pitts"
+          ]
+        },
+        {
+          "week": 2,
+          "drinks": 0,
+          "drinksCompleted": 1,
+          "players": []
+        },
+        {
+          "week": 3,
+          "drinks": 1,
+          "drinksCompleted": 2,
+          "players": [
+            "Kyle Pitts"
+          ]
+        },
+        {
+          "week": 4,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
+        }
+      ]
+    },
+    {
+      "name": "Team 2",
+      "owner": "Owner 2",
+      "history": [
+        {
+          "week": 1,
+          "drinks": 3,
+          "drinksCompleted": 3,
+          "players": [
+            "Payton Manning",
+            "Tom Brady",
+            "Aaron Rodgers"
+          ]
+        },
+        {
+          "week": 2,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
+        },
+        {
+          "week": 3,
+          "drinks": 1,
+          "drinksCompleted": 1,
+          "players": [
+            "Van Jefferson"
+          ]
+        },
+        {
+          "week": 4,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fantasy Football Drink Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Jerome's Jerries Fantasy Football Drink Tracker</div>
+            <ul class="nav-links">
+                <li><a href="#chart">Drink Chart</a></li>
+                <li><a href="#history">History</a></li>
+                <li><a href="#rules">Rules</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="chart" class="drink-chart">
+            <h1>Season Drink Progression</h1>
+            <div class="chart-container">
+                <canvas id="drinkChart"></canvas>
+            </div>
+        </section>
+
+        <section id="history" class="history">
+            <h2>Season History</h2>
+            <div class="team-selector">
+                <label for="team-select">Select Team:</label>
+                <select id="team-select">
+                    <!-- Teams will be populated by JavaScript -->
+                </select>
+            </div>
+            <div class="history-container" id="history-container">
+                <table class="history-table">
+                    <thead>
+                        <tr>
+                            <th>Week</th>
+                            <th>Total Owed</th>
+                            <th>Earned Drinks</th>
+                            <th>Carried Over</th>
+                            <th>Completed</th>
+                            <th>Players (0 Points)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- History will be populated by JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="rules" class="rules">
+            <h2>Rules</h2>
+            <div class="rules-content">
+                <ol>
+                    <li>Each team starts with 0 drinks at the beginning of the season</li>
+                    <li>If a player scores 0 points in a week, their team owes drinks for those players</li>
+                    <li>If a team fails to complete any owned drinks before the following week kicks off, their drink count doubles the following week</li>
+                    <li>If you owe >= 10 drinks <strong>you lose a 1st round pick</strong>.</li>
+                </ol>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Jerome's Jerries Fantasy Football Drink Tracker. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
