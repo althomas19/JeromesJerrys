@@ -132,7 +132,6 @@ function updateChart() {
                     }
                 },
                 title: {
-                    display: true,
                     text: 'Drink Progression by Team'
                 },
                 tooltip: {
