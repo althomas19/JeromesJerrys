@@ -175,20 +175,6 @@ function getRandomColor() {
     return color;
 }
 
-// Function to calculate total drinks for a team up to a specific week
-function calculateTotalDrinks(team, week) {
-    return team.history
-        .filter(entry => entry.week <= week)
-        .reduce((total, entry) => total + entry.drinks, 0);
-}
-
-// Function to calculate drinks completed for a team up to a specific week
-function calculateDrinksCompleted(team, week) {
-    return team.history
-        .filter(entry => entry.week <= week)
-        .reduce((total, entry) => total + entry.drinksCompleted, 0);
-}
-
 // Function to update the team selector
 function updateTeamSelector() {
     const teamSelect = document.getElementById('team-select');
