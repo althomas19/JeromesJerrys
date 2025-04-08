@@ -32,7 +32,7 @@ let drinkData = {};
 let drinkChart = null;
 
 function loadData() {
-    fetch('data.json')
+    fetch('src/js/data.json')
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
@@ -221,13 +221,15 @@ function updateHistoryDisplay() {
     });
 }
 
-// Export functions for testing
-module.exports = {
-    calculateCarriedOverDrinks,
-    calculateWeekDrinks
-};
+// Export functions for testing in Node.js environment
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = {
+        calculateCarriedOverDrinks,
+        calculateWeekDrinks
+    };
+}
 
-// Only run DOM-dependent code if we're in a browser environment
+// Initialize the page in browser environment
 if (typeof document !== 'undefined') {
     document.addEventListener('DOMContentLoaded', () => {
         loadData();
