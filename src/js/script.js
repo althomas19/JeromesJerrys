@@ -1,7 +1,36 @@
+// Calculation functions
+function calculateCarriedOverDrinks(team, week) {
+    if (week <= 1) return 0;
+    
+    const prevWeekEntry = team.history.find(entry => entry.week === week - 1);
+    if (prevWeekEntry) {
+        const prevWeekCarriedOver = calculateCarriedOverDrinks(team, week - 1);
+        const prevWeekEarned = prevWeekEntry.drinks;
+        const prevWeekTotal = prevWeekCarriedOver + prevWeekEarned;
+        const uncompleted = prevWeekTotal - prevWeekEntry.drinksCompleted;
+        return uncompleted * 2;
+    }
+    return 0;
+}
+
+function calculateWeekDrinks(team, week) {
+    const weekEntry = team.history.find(entry => entry.week === week);
+    if (!weekEntry) return 0;
+
+    if (week === 1) {
+        return weekEntry.drinks; // For week 1, just return earned drinks
+    }
+
+    const carriedOver = calculateCarriedOverDrinks(team, week);
+    const earned = weekEntry.drinks;
+    
+    return carriedOver + earned;
+}
+
+// DOM-dependent functions
 let drinkData = {};
 let drinkChart = null;
 
-// Function to load data from data.json or use default
 function loadData() {
     fetch('data.json')
         .then(response => {
@@ -52,36 +81,6 @@ function prepareChartData() {
         labels: weeks.map(week => `Week ${week}`),
         datasets: datasets
     };
-}
-
-// Function to calculate carried over drinks from previous week
-function calculateCarriedOverDrinks(team, week) {
-    if (week <= 1) return 0;
-    
-    const prevWeekEntry = team.history.find(entry => entry.week === week - 1);
-    if (prevWeekEntry) {
-        const prevWeekCarriedOver = calculateCarriedOverDrinks(team, week - 1);
-        const prevWeekEarned = prevWeekEntry.drinks;
-        const prevWeekTotal = prevWeekCarriedOver + prevWeekEarned;
-        const uncompleted = prevWeekTotal - prevWeekEntry.drinksCompleted;
-        return uncompleted * 2;
-    }
-    return 0;
-}
-
-// Function to calculate drinks owed for a specific week
-function calculateWeekDrinks(team, week) {
-    const weekEntry = team.history.find(entry => entry.week === week);
-    if (!weekEntry) return 0;
-
-    if (week === 1) {
-        return weekEntry.drinks; // For week 1, just return earned drinks
-    }
-
-    const carriedOver = calculateCarriedOverDrinks(team, week);
-    const earned = weekEntry.drinks;
-    
-    return carriedOver + earned;
 }
 
 // Function to update the chart
@@ -222,7 +221,15 @@ function updateHistoryDisplay() {
     });
 }
 
-// Initialize the page
-document.addEventListener('DOMContentLoaded', () => {
-    loadData();
-}); 
+// Export functions for testing
+module.exports = {
+    calculateCarriedOverDrinks,
+    calculateWeekDrinks
+};
+
+// Only run DOM-dependent code if we're in a browser environment
+if (typeof document !== 'undefined') {
+    document.addEventListener('DOMContentLoaded', () => {
+        loadData();
+    });
+} 

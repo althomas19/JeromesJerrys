@@ -35,6 +35,10 @@ To run the application locally:
 
 `npx serve`
 
+To run unit tests:
+
+`npm install` then `npm test`
+
 ## Data Structure
 
 The application uses a JSON file (`data.json`) to store team data with the following structure:
