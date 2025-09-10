@@ -56,7 +56,7 @@ function prepareChartData() {
         team.history.map(entry => entry.week)
     ));
     
-    const weeks = Array.from({length: maxWeek}, (_, i) => i + 1);
+    const weeks = Array.from({length: maxWeek + 1}, (_, i) => i);
     
     const datasets = drinkData.teams.map(team => {
         const data = weeks.map(week => {
@@ -78,7 +78,7 @@ function prepareChartData() {
     });
     
     return {
-        labels: weeks.map(week => `Week ${week}`),
+        labels: weeks.map(week => week === 0 ? 'Start of Season' : `Week ${week}`),
         datasets: datasets
     };
 }
@@ -137,7 +137,7 @@ function updateChart() {
                     callbacks: {
                         label: function(context) {
                             const team = drinkData.teams[context.datasetIndex];
-                            const week = context.dataIndex + 1;
+                            const week = context.dataIndex;
                             const weekEntry = team.history.find(entry => entry.week === week);
                             const completed = weekEntry ? weekEntry.drinksCompleted : 0;
                             const earnedDrinks = weekEntry ? weekEntry.drinks : 0;
@@ -209,7 +209,7 @@ function updateHistoryDisplay() {
         
         const row = document.createElement('tr');
         row.innerHTML = `
-            <td>Week ${entry.week}</td>
+            <td>${entry.week === 0 ? 'Start of Season' : `Week ${entry.week}`}</td>
             <td>${weekDrinks} drinks</td>
             <td>${earnedDrinks} drinks</td>
             <td>${carriedOver > 0 ? `${carriedOver} drinks` : '-'}</td>
