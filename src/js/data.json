@@ -2,33 +2,11 @@
   "season": "2025",
   "teams": [
     {
-      "name": "Team 1",
-      "owner": "Owner 1",
+      "name": "Suburban Jaromes",
+      "owner": "@algreen11",
       "history": [
         {
           "week": 1,
-          "drinks": 1,
-          "drinksCompleted": 0,
-          "players": [
-            "Kyle Pitts"
-          ]
-        },
-        {
-          "week": 2,
-          "drinks": 0,
-          "drinksCompleted": 1,
-          "players": []
-        },
-        {
-          "week": 3,
-          "drinks": 1,
-          "drinksCompleted": 2,
-          "players": [
-            "Kyle Pitts"
-          ]
-        },
-        {
-          "week": 4,
           "drinks": 0,
           "drinksCompleted": 0,
           "players": []
@@ -36,38 +14,110 @@
       ]
     },
     {
-      "name": "Team 2",
-      "owner": "Owner 2",
+      "name": "Jim Bob Cooter",
+      "owner": "@Swertheim24",
+      "history": [
+        {
+          "week": 1,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
+        }
+      ]
+    },
+    {
+      "name": "Coach Bragg",
+      "owner": "@ebragg410",
+      "history": [
+        {
+          "week": 1,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
+        }
+      ]
+    },
+    {
+      "name": "Bing Bong Felix Duong",
+      "owner": "@aschlar22",
+      "history": [
+        {
+          "week": 1,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
+        }
+      ]
+    },
+    {
+      "name": "Coach Svenson",
+      "owner": "@swansonc",
+      "history": [
+        {
+          "week": 1,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
+        }
+      ]
+    },
+    {
+      "name": "Ur mom's biggest fan",
+      "owner": "@pdeforest",
+      "history": [
+        {
+          "week": 1,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
+        }
+      ]
+    },
+    {
+      "name": "Jerry Jerome",
+      "owner": "@ajarombek",
+      "history": [
+        {
+          "week": 1,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
+        }
+      ]
+    },
+    {
+      "name": "That's that gud glukgluk",
+      "owner": "@beilbahlawat",
+      "history": [
+        {
+          "week": 1,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
+        }
+      ]
+    },
+    {
+      "name": "The Chuppa Shuffle",
+      "owner": "@MichaelWhale",
+      "history": [
+        {
+          "week": 1,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
+        }
+      ]
+    },
+    {
+      "name": "Team bigwinvin1",
+      "owner": "@bigwinvin1",
       "history": [
         {
           "week": 1,
           "drinks": 3,
-          "drinksCompleted": 3,
-          "players": [
-            "Payton Manning",
-            "Tom Brady",
-            "Aaron Rodgers"
-          ]
-        },
-        {
-          "week": 2,
-          "drinks": 0,
           "drinksCompleted": 0,
-          "players": []
-        },
-        {
-          "week": 3,
-          "drinks": 1,
-          "drinksCompleted": 1,
-          "players": [
-            "Van Jefferson"
-          ]
-        },
-        {
-          "week": 4,
-          "drinks": 0,
-          "drinksCompleted": 0,
-          "players": []
+          "players": ["Xavier Worthy", "Tyler Lockett", "Opponent empty defense"]
         }
       ]
     }
