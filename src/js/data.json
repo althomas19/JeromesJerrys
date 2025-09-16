@@ -16,6 +16,12 @@
           "drinks": 0,
           "drinksCompleted": 0,
           "players": []
+        },
+        {
+          "week": 2,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
         }
       ]
     },
@@ -31,6 +37,12 @@
         },
         {
           "week": 1,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
+        },
+        {
+          "week": 2,
           "drinks": 0,
           "drinksCompleted": 0,
           "players": []
@@ -52,6 +64,12 @@
           "drinks": 0,
           "drinksCompleted": 0,
           "players": []
+        },
+        {
+          "week": 2,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
         }
       ]
     },
@@ -67,6 +85,12 @@
         },
         {
           "week": 1,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
+        },
+        {
+          "week": 2,
           "drinks": 0,
           "drinksCompleted": 0,
           "players": []
@@ -88,6 +112,12 @@
           "drinks": 0,
           "drinksCompleted": 0,
           "players": []
+        },
+        {
+          "week": 2,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
         }
       ]
     },
@@ -103,6 +133,12 @@
         },
         {
           "week": 1,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
+        },
+        {
+          "week": 2,
           "drinks": 0,
           "drinksCompleted": 0,
           "players": []
@@ -124,6 +160,12 @@
           "drinks": 0,
           "drinksCompleted": 0,
           "players": []
+        },
+        {
+          "week": 2,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
         }
       ]
     },
@@ -139,6 +181,12 @@
         },
         {
           "week": 1,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
+        },
+        {
+          "week": 2,
           "drinks": 0,
           "drinksCompleted": 0,
           "players": []
@@ -160,6 +208,14 @@
           "drinks": 0,
           "drinksCompleted": 0,
           "players": []
+        },
+        {
+          "week": 2,
+          "drinks": 1,
+          "drinksCompleted": 0,
+          "players": [
+            "Empty Defense"
+          ]
         }
       ]
     },
@@ -176,8 +232,18 @@
         {
           "week": 1,
           "drinks": 3,
+          "drinksCompleted": 3,
+          "players": [
+            "Xavier Worthy",
+            "Tyler Lockett",
+            "Opponent empty defense"
+          ]
+        },
+        {
+          "week": 2,
+          "drinks": 0,
           "drinksCompleted": 0,
-          "players": ["Xavier Worthy", "Tyler Lockett", "Opponent empty defense"]
+          "players": []
         }
       ]
     }
