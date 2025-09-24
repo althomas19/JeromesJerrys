@@ -26,7 +26,8 @@ A web application for tracking Dynasty FF Weekly Punishments.
 To add a new week to all teams, run the following command:
 
 ```bash
-node src/js/cli_update addNewWeek
+cd src/js
+node cli_update addNewWeek
 ```
 
 ## Development
