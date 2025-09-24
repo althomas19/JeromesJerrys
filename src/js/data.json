@@ -22,6 +22,12 @@
           "drinks": 0,
           "drinksCompleted": 0,
           "players": []
+        },
+        {
+          "week": 3,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
         }
       ]
     },
@@ -43,6 +49,12 @@
         },
         {
           "week": 2,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
+        },
+        {
+          "week": 3,
           "drinks": 0,
           "drinksCompleted": 0,
           "players": []
@@ -70,6 +82,12 @@
           "drinks": 0,
           "drinksCompleted": 0,
           "players": []
+        },
+        {
+          "week": 3,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
         }
       ]
     },
@@ -94,6 +112,12 @@
           "drinks": 0,
           "drinksCompleted": 0,
           "players": []
+        },
+        {
+          "week": 3,
+          "drinks": 1,
+          "drinksCompleted": 0,
+          "players": ["Opponent Ceedee Lamb"]
         }
       ]
     },
@@ -115,6 +139,12 @@
         },
         {
           "week": 2,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
+        },
+        {
+          "week": 3,
           "drinks": 0,
           "drinksCompleted": 0,
           "players": []
@@ -142,6 +172,12 @@
           "drinks": 0,
           "drinksCompleted": 0,
           "players": []
+        },
+        {
+          "week": 3,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
         }
       ]
     },
@@ -163,6 +199,12 @@
         },
         {
           "week": 2,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
+        },
+        {
+          "week": 3,
           "drinks": 0,
           "drinksCompleted": 0,
           "players": []
@@ -190,6 +232,12 @@
           "drinks": 0,
           "drinksCompleted": 0,
           "players": []
+        },
+        {
+          "week": 3,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
         }
       ]
     },
@@ -212,10 +260,16 @@
         {
           "week": 2,
           "drinks": 1,
-          "drinksCompleted": 0,
+          "drinksCompleted": 1,
           "players": [
             "Empty Defense"
           ]
+        },
+        {
+          "week": 3,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
         }
       ]
     },
@@ -241,6 +295,12 @@
         },
         {
           "week": 2,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
+        },
+        {
+          "week": 3,
           "drinks": 0,
           "drinksCompleted": 0,
           "players": []
