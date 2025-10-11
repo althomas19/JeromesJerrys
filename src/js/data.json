@@ -28,6 +28,18 @@
           "drinks": 0,
           "drinksCompleted": 0,
           "players": []
+        },
+        {
+          "week": 4,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
+        },
+        {
+          "week": 5,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
         }
       ]
     },
@@ -55,6 +67,18 @@
         },
         {
           "week": 3,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
+        },
+        {
+          "week": 4,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
+        },
+        {
+          "week": 5,
           "drinks": 0,
           "drinksCompleted": 0,
           "players": []
@@ -88,6 +112,20 @@
           "drinks": 0,
           "drinksCompleted": 0,
           "players": []
+        },
+        {
+          "week": 4,
+          "drinks": 1,
+          "drinksCompleted": 1,
+          "players": [
+            "Empty Defense"
+          ]
+        },
+        {
+          "week": 5,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
         }
       ]
     },
@@ -116,8 +154,22 @@
         {
           "week": 3,
           "drinks": 1,
+          "drinksCompleted": 1,
+          "players": [
+            "Opponent Ceedee Lamb"
+          ]
+        },
+        {
+          "week": 4,
+          "drinks": 0,
           "drinksCompleted": 0,
-          "players": ["Opponent Ceedee Lamb"]
+          "players": []
+        },
+        {
+          "week": 5,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
         }
       ]
     },
@@ -145,6 +197,18 @@
         },
         {
           "week": 3,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
+        },
+        {
+          "week": 4,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
+        },
+        {
+          "week": 5,
           "drinks": 0,
           "drinksCompleted": 0,
           "players": []
@@ -178,6 +242,18 @@
           "drinks": 0,
           "drinksCompleted": 0,
           "players": []
+        },
+        {
+          "week": 4,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
+        },
+        {
+          "week": 5,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
         }
       ]
     },
@@ -208,6 +284,18 @@
           "drinks": 0,
           "drinksCompleted": 0,
           "players": []
+        },
+        {
+          "week": 4,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
+        },
+        {
+          "week": 5,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
         }
       ]
     },
@@ -235,6 +323,18 @@
         },
         {
           "week": 3,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
+        },
+        {
+          "week": 4,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
+        },
+        {
+          "week": 5,
           "drinks": 0,
           "drinksCompleted": 0,
           "players": []
@@ -270,6 +370,18 @@
           "drinks": 0,
           "drinksCompleted": 0,
           "players": []
+        },
+        {
+          "week": 4,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
+        },
+        {
+          "week": 5,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
         }
       ]
     },
@@ -301,6 +413,18 @@
         },
         {
           "week": 3,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
+        },
+        {
+          "week": 4,
+          "drinks": 0,
+          "drinksCompleted": 0,
+          "players": []
+        },
+        {
+          "week": 5,
           "drinks": 0,
           "drinksCompleted": 0,
           "players": []
